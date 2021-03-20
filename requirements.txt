@@ -1,13 +1,15 @@
-certifi==2018.11.29
+-i https://pypi.python.org/simple/
+certifi==2020.12.5
 chardet==3.0.4
-Click==7.0
-Flask==1.0.2
-Flask-SQLAlchemy==2.3.2
-idna==2.8
+click==7.1.2
+flask-sqlalchemy==2.3.2
+flask==0.12.2
+greenlet==1.0.0 ; python_version >= '3'
+idna==2.6
 itsdangerous==1.1.0
-Jinja2==2.10
-MarkupSafe==1.1.0
-requests==2.21.0
-SQLAlchemy==1.2.18
-urllib3==1.24.1
-Werkzeug==0.14.1
+jinja2==2.11.3
+markupsafe==1.1.1
+requests==2.18.4
+sqlalchemy==1.4.2
+urllib3==1.22
+werkzeug==1.0.1
